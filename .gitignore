@@ -1,0 +1,25 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Local Terraform settings
+.terraform/
+.terraform.lock.hcl
+
+# SSH private/public keys
+*.pem
+terra-key
+terra-key.pub
+
+# AWS CLI installer package
+AWSCLIV2.pkg
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary / test files
+new.txt
