@@ -1,4 +1,4 @@
-# Terraform EKS Cluster Setup
+# Provisioning Terraform EKS Cluster
 
 This project demonstrates how I provisioned a **production-ready Amazon EKS cluster** using **Terraform**.  
 It uses the **prebuilt [`terraform-aws-modules/eks/aws`](https://registry.terraform.io/modules/terraform-aws-modules/eks/aws/latest)** module for creating the EKS cluster, along with a custom VPC configuration to provide the networking infrastructure.
